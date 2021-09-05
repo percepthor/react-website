@@ -1,0 +1,96 @@
+html, body, #root, .App {
+    height: 100vh;
+    width: 100%;
+}
+
+
+.navbar {
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+    background-color: #214C8E !important;
+  }
+
+.upload-form-box {
+    padding-top: 20px;
+}
+
+/*** footer ***/
+
+.percepthor-page-footer {
+    background-color: #fff;
+    padding-top: 0px;
+    text-align: center;
+}
+
+.percepthor-page-footer.dark {
+    background-color: #2b2f31;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: 50px;
+}
+
+.percepthor-page-footer .footer-copyright {
+    background-color: #fff;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    text-align: center;
+    /* margin-top: 50px; */
+    border: 1px solid #ededed
+}
+
+.percepthor-page-footer.dark .footer-copyright {
+    background-color: #222425;
+    border-color: #222425
+}
+
+.percepthor-page-footer .footer-copyright p {
+    margin: 10px;
+    color: #7d8288
+}
+
+.percepthor-page-footer.dark .footer-copyright p {
+    color: #ccc
+}
+
+.percepthor-page-footer ul {
+    list-style-type: none;
+    padding-left: 0;
+    line-height: 1.7
+}
+
+.percepthor-page-footer h5 {
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 30px
+}
+
+.percepthor-page-footer.dark h5 {
+    color: #fff
+}
+
+.percepthor-page-footer a {
+    color: #53595f;
+    text-decoration: none
+}
+
+.percepthor-page-footer.dark a {
+    color: #d2d1d1
+}
+
+.percepthor-page-footer a:focus,
+.percepthor-page-footer a:hover {
+    text-decoration: none;
+    color: #1d2125
+}
+
+.percepthor-page-footer.dark a:focus,
+.percepthor-page-footer.dark a:hover {
+    color: #fff
+}
+
+@media (min-width:576px) {
+    .percepthor-page-footer {
+        text-align: left
+    }
+}
